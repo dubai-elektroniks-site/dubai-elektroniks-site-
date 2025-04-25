@@ -1,6 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const App = () => {
+  return <h1>Welcome to Dubai Elektroniks</h1>;
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
